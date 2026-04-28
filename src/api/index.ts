@@ -13,7 +13,7 @@ import {
   WeekStats,
 } from '@/src/types';
 
-const BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000/api';
+const BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://habits-backend-m913.onrender.com/api';
 
 async function request<T>(
   endpoint: string,
